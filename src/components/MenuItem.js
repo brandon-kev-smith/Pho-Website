@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/MenuItem.css'
 
 
 export default class MenuItem extends Component {
@@ -15,12 +16,11 @@ export default class MenuItem extends Component {
         
 
         return (
-            <div>
-                <p>{nameEnglish}</p>
-                <p>{nameViet}</p>
-                <p>{nameKorean}</p>
-                <p>{key}</p>
-                <p>{price}</p>
+            <div className='item'>
+                <h4 className='center'>{nameEnglish}</h4>
+                <p className='center'>{nameViet} - {nameKorean}</p>
+                <p className='center'>{key}</p>
+                <p className='center'>{price}</p>
             </div>
         );
     }
