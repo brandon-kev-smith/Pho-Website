@@ -18,18 +18,20 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path='/' exact element={<Home />} />
-        <Route path='/menu' element={<Menu />}>
-            <Route path='/menu/appetizers' element={<Appetizers />} /> 
-            <Route path='/menu/Pho' element={<Pho />} /> 
-            <Route path='/menu/sandwiches' element={<Sandwiches />} /> 
-            <Route path='/menu/vermicelli' element={<Vermicelli />} /> 
-            <Route path='/menu/ricePlates' element={<RicePlates />} /> 
-            <Route path='/menu/friedRice' element={<FriedRice />} /> 
-            <Route path='/menu/stirFriedNoodles' element={<StirFriedNoodles />} /> 
-            <Route path='/menu/beverages' element={<Beverages />} /> 
+        <Route index element={<Home />} />
+        <Route path='/' element={<Home />} />
+        <Route path='menu/*' element={<Menu />}>
+            <Route path='appetizers' element={<Appetizers />} /> 
+            <Route path='pho' element={<Pho />} /> 
+            <Route path='sandwiches' element={<Sandwiches />} /> 
+            <Route path='vermicelli' element={<Vermicelli />} /> 
+            <Route path='ricePlates' element={<RicePlates />} /> 
+            <Route path='friedRice' element={<FriedRice />} /> 
+            <Route path='stirFriedNoodles' element={<StirFriedNoodles />} /> 
+            <Route path='beverages' element={<Beverages />} /> 
         </Route>
         <Route path='/about' element={<About />} />
+        <Route path='*' element={<Home />} />
       </Routes>
     </Router>
   );

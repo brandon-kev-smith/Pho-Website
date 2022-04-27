@@ -1,5 +1,33 @@
 .homeBanner {
-    transform: rotate(90deg);
-    height: 100%;
-    width: 600px;
+    width: 100%;
+}
+
+.imgBanner {
+    display: flex;
+    justify-content: center;
+}
+
+.homeTitle {
+    font-size:xxx-large;
+    display: flex;
+    align-self: center;
+}
+
+.inLine {
+    display: flex;
+}
+
+.center {
+    justify-items: center;
+}
+
+.logo {
+    justify-content: left;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.spacer {
+    width: 35%;
 }

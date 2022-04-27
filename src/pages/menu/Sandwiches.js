@@ -11,35 +11,35 @@ const Sandwiches = () =>{
           nameEnglish='French Bread with Grilled Pork' 
           nameViet='BANH MI THIT NUONG' 
           nameKorean='바인 미 타이 느엉' 
-          key='B1' 
+          value='B1' 
           price='$3.95'
         />
         <MenuItem 
           nameEnglish='French Bread with Grilled Chicken' 
           nameViet='BANH MI GA NUONG' 
           nameKorean='바인 미 가 느엉' 
-          key='B2' 
+          value='B2' 
           price='$3.95'
         />
         <MenuItem 
           nameEnglish='French Bread with Grilled Beef' 
           nameViet='BANH MI BO NUONG' 
           nameKorean='바인 미 보 느엉' 
-          key='B3' 
+          value='B3' 
           price='$3.95'
         />
         <MenuItem 
           nameEnglish='French Bread with Tofu' 
           nameViet='BANH MI TOFU' 
           nameKorean='바인 미 토푸' 
-          key='B4' 
+          value='B4' 
           price='$3.95'
         />
         <MenuItem 
           nameEnglish='Beef Stew with French Bread' 
           nameViet='BANH MI BO KHO' 
           nameKorean='바인 미 보 호' 
-          key='B5' 
+          value='B5' 
           price='$7.75'
         />
       </div> 

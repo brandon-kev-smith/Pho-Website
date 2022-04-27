@@ -11,15 +11,14 @@ export default class MenuItem extends Component {
         const nameEnglish = this.props.nameEnglish;
         const nameViet = this.props.nameViet;
         const nameKorean = this.props.nameKorean;
-        const key = this.props.key;
+        const value = this.props.value;
         const price = this.props.price;
         
 
         return (
             <div className='item'>
-                <h4 className='center'>{nameEnglish}</h4>
+                <h4 className='center'>{value} - {nameEnglish}</h4>
                 <p className='center'>{nameViet} - {nameKorean}</p>
-                <p className='center'>{key}</p>
                 <p className='center'>{price}</p>
             </div>
         );
