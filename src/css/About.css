@@ -1,0 +1,10 @@
+.aboutTitle {
+    font-size:xxx-large;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
